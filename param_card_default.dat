@@ -25,7 +25,7 @@ Block mass
    25 1.200000e+02 # MH 
   5000001 1.000000e+00 # Mn 
   6000001 1.000000e+03 # MX1 
-  6000002 2.000000e+03 # MX2 
+  6000002 1.5000000e+04 # MX2 
 ## Dependent parameters, given by model restrictions.
 ## Those values should be edited following the 
 ## analytical expression. MG5 ignores those values 
@@ -50,7 +50,7 @@ Block mass
 Block np 
     1 1.000000e-01 # lam1Norm 
     2 1.000000e-01 # lam2Norm 
-    3 1.000000e-01 # lam2Left 
+    3 0.000000e+00 # lam2Left 
     4 0.000000e+00 # lam1R111 
     5 1.000000e+00 # lam1R112 
     6 1.000000e+00 # lam1R113 
@@ -123,8 +123,8 @@ DECAY   6 1.508336e+00 # WT
 DECAY  23 2.495200e+00 # WZ 
 DECAY  24 2.085000e+00 # WW 
 DECAY  25 5.753088e-03 # WH 
-DECAY 6000001 5.000000e+00 # WX1 
-DECAY 6000002 5.000000e+01 # WX2 
+DECAY 6000001 auto # WX1 
+DECAY 6000002 auto # WX2 
 ## Dependent parameters, given by model restrictions.
 ## Those values should be edited following the 
 ## analytical expression. MG5 ignores those values 
