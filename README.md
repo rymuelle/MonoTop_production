@@ -1,17 +1,17 @@
 # MonoTop_production
 
-Installing Delphes and PY8
+##Installing Delphes and PY8
 
 You must use MadGraph 2.6 or greater, 2.5 has some compatibility issues. This will take some time and you will also need pythia8 if not installed.
 
 1. Navigate to your Madgraph directory run 
 
-    ./bin/mg5_aMC
+        ./bin/mg5_aMC
 
 2. In the madgraph terminal, run 
 
 
-     install Delphes 
+        install Delphes 
 
 3. After some time, Delphes and pythia will be installed.
 
